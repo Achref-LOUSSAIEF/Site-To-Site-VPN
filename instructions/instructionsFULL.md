@@ -140,7 +140,7 @@ exit
 
 1. Repeat **Stage 3A** steps for `ONPREM-ROUTER2` using `CONNECTION2CONFIG.TXT`.
 
-## STAGE 5 - CLEANUP
+# STAGE 5 - CLEANUP
 
 - Delete the on-premises stack
 - Delete the VPN COnnections
