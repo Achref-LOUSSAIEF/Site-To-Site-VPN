@@ -7,7 +7,7 @@ Parameters:
   RouterAmiId:
     Description: AMI for the Router Instances (don't change)
     Type: 'String'
-    Default: 'ami-0ac80df6eff0e70b5'
+    Default: 'ami-0f9de6e2d2f067fca'
   Branch:
     Description: which branch to pull assets from, usually master/main (don't change this)
     Type: 'String'
