@@ -2,9 +2,14 @@
 
 ## Stage 1A - AWS and On-Premises Environment Setup
 
-1. Deploy `HA-VPN-AWS.yaml` in `us-east-1` (AWS) and check capabilities if prompted.
-2. Deploy `HA-VPN-ONPREM.yaml` in `us-east-1` (ONPREM) and check capabilities if prompted.
-3. Wait for both stacks to reach `CREATE_COMPLETE` status (~5-10 mins).
+1. **Log in to the AWS Console**  
+   Open [AWS CloudFormation Console](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/) and ensure you are logged in with an account that has admin permissions. Also, confirm that you are using the **us-east-1** region.
+
+2. **Create the Stack**  
+   Click [here](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-hybrid-bgpvpn/BGPVPNINFRA.yaml&stackName=ADVANCEDVPNDEMO) to open the "Quick Create Stack" page.  
+
+3. **Confirm and Create the Stack**  
+   Scroll to the bottom of the page, check the box to acknowledge the stack's creation, and then click "Create Stack."
 
 ## Stage 1B - Creating Customer Gateway Objects
 
