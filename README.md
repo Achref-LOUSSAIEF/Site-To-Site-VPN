@@ -2,7 +2,7 @@
 
 This project implements a **Dynamic, BGP-based, Highly Available Site-to-Site VPN** to simulate a **hybrid AWS and on-premises environment**—both hosted within AWS.
 
-The implementation is inspired by **Adrian Cantrill's** training materials. For more details, visit:  
+The implementation is inspired by **Adrian Cantrill's** training materials . For more details, visit:  
 🔗 [Learn with Cantrill](https://learn.cantrill.io/)
 
 ## Project Overview
@@ -17,3 +17,4 @@ The project is structured into **five stages**, each progressively building upon
 
 This project demonstrates how to set up a resilient **site-to-site VPN** using **AWS services** and **BGP routing**, ensuring high availability and dynamic routing capabilities.
 
+![Architecture](instructions/Architecture.png)
